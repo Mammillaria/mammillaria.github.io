@@ -1,3 +1,43 @@
+
 body{
 	background: #1A1A1A;
+	color: #ffffff;
 }
+section{
+
+}
+
+section#intro .intro-bg {
+    position: relative;
+    left: 0px;
+    top: 100px;
+    color: #1F1F1F;
+    text-transform: uppercase;
+    z-index: -1;
+}
+
+section#intro .intro-bg {
+    transition: 2s cubic-bezier(0.99, 0.44, 0, 0.95) color;
+}
+
+section#intro .intro-bg h2 {
+    font-size: 250px;
+    line-height: 240px;
+    font-weight: 700;
+}
+
+section#intro .wrap-content{
+	position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 10%;
+}
+
+section#intro .wrap-content h1 {
+    font-size: 105px;
+    line-height: 115px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
